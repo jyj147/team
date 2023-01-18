@@ -76,10 +76,12 @@ ol {
         color: #fff;
     }
 
-    p {
-        margin-top: 30px;
-        color: #fff;
-    }
+    .e p {
+    margin-top: 30px;
+    color: #fff;
+    font-size: 12px;
+    margin-left: 1.5%
+}
 
     #arr article {
         width: 48%;
@@ -91,7 +93,7 @@ ol {
     article img {
         width: 100%;
         height: 100%;
-        border-radius: 15px;
+        margin-top: 9%;
     }
 
     article img:hover {
@@ -102,11 +104,16 @@ ol {
     #arr p {
         margin-top: 30px;
         color: gray;
+        font-size: 11px;
     }
 
     #arr span {
         margin-top: 30px;
         color: #fff;
+    }
+
+    .mspan span {
+        font-size: 11px;
     }
 
     #box {
@@ -123,36 +130,35 @@ ol {
         height: 100%;
     }
     .ex1 img {
-        width: 114%;
+        width: 100%;
         height: 100%;
-        border-radius: 15px;
-        margin: 2%;
+        /* margin: 2%; */
+        margin-top: 16px;
     }
     .ex1 img:hover{
     background-color: #fff;
     opacity: 0.5;}
     .exx {
-        width: 40%;
-        height: 101%;
-        display: flex;
-        margin: -37% 0px 0px 59%;
-    }
+    width: 48%;
+    height: 101%;
+    display: flex;
+    margin: -37% 0px 0px 57%;
+}
     .exx ul {
         width: 100%;
         height: 96%;
     }
     .exx li {
-        width: 15%;
-        height: 54%;
-        margin: 1.5% 5% 0% 5%;
+        width: 18%;
+        height: 55%;
+        margin: 1.4% 2% 0% 30%;
         float: left;
-        padding: 0% 0% 0% 25%;
+        padding: 0% 0% -1% 27%;
     }
     .exx li img {
         width: 267%;
         height: 84%;
-        margin: 10px 0px 0px -110px;
-        border-radius: 10px;
+        margin: 7px 0px 0px -209px;
     }
 
     .exx li img:hover{
@@ -160,4 +166,43 @@ ol {
         opacity: 0.5;
     }
 
+    .Ex {
+        width: 100%;
+        height: 100%;
+        background-color: blueviolet;
+        margin-top: 75px;
+        display: flex;
+    }
+
+    .Ex1 {
+        width: 52%;
+        height: 100%;
+        background-color: #666666;
+    }
+
+    .Ex2 {
+        width: 100%;
+        height: 53%;
+        background-color: yellow;
+        margin: -4% 0% 0% 9%;
+        /* display: block; */
+        align-self: center;
+    }
+    .Ex3 {
+        width: 100%;
+        height: 53%;
+        background-color: red;
+        margin: -4% 8% 0% 7%;
+        align-self: center;
+    }
+    .dont {
+        width: 52%;
+        height: 100%;
+        background-color: pink;
+        display: flex;
+        align-items: center;
+    }
+
+    
+  
 }
