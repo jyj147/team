@@ -203,6 +203,31 @@ ol {
         align-items: center;
     }
 
-    
-  
+    .EX{
+        width: 100%;
+        height: 60%;
+        background-color: blue;
+        margin-top: 75px;
+        display: flex;
+        align-items: center;
+    }
+    .skin {
+        width: 52%;
+        height: 100%;
+        background-color: #666666;
+    }
+    .skin2 {
+        width: 52%;
+        height: 100%;
+        background-color: red;
+    }
+
+    .Fs {
+        width: 100%;
+        height: 28.5%;
+        background-color: blue;
+        margin-top: 75px;
+        display: flex;
+        align-items: center;
+    }
 }
