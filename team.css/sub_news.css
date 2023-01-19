@@ -17,12 +17,51 @@ ol {
 }
 
 @media all and (min-width:1100px) {
-    #event {
-        width: 100%;
-        height: 70vh;
-        background-color: #222222;
-        position: relative;
-    }
+    
+            /* 섹션1 */
+            #sec1{
+                width:100%;
+                height: 210px;
+                background-color: #222;
+                display: flex;
+                justify-content: center;
+                margin-top: 70px;
+                align-items: center;
+            }
+            .sec1div1{
+                width: 1100px;
+                height: auto;
+                background-color: #222;
+            }
+            .sec1div1>div:first-child{
+                display: flex;
+                margin:10px 30px;
+            }
+            .sec1div1>div>input{
+                width:150px; 
+                height: 30px;
+                border: 1px solid white;
+                background-color: rgba(255,255,255,0);
+                border-radius: 15px;
+                color: white;
+                text-align: center;
+            }
+            .sec1div1>div>ul{
+                display: flex;
+                margin:0px 30px;
+            }
+            .sec1div1>div>ul>li{
+                margin:0px 30px;
+            }
+            .sec1div1>div:nth-child(2){
+                margin:30px;
+            }
+            #event {
+                width: 100%;
+                height: 648px;
+                background-color: #222222;
+                position: relative;
+            }
 
     .container {
         width: 1100px;
@@ -32,11 +71,10 @@ ol {
 
     .container1 {
         width: 1100px;
-        height: 100%;
+        height: 1405px;
         margin: 0 auto;
         display: flex;
     }
-
     .e {
         width: 100%;
         height: 64px;
@@ -55,10 +93,7 @@ ol {
         margin: 32px 0px 0px 2px;
     }
 
-    .search:hover {
-        background-color: #fff;
-        opacity: 0.3px;
-    }
+  
 
     .search img {
         width: 18%;
@@ -74,6 +109,13 @@ ol {
 
     li {
         color: #fff;
+    }
+
+    #arr {
+        width: 106%;
+        height: 530px;
+
+        margin: 0% 0% -42% -96%;
     }
 
     .e p {
@@ -96,10 +138,10 @@ ol {
         margin-top: 9%;
     }
 
-    article img:hover {
+    /* article img:hover {
         background-color: #fff;
         opacity: 0.5;
-    }
+    } */
 
     #arr p {
         margin-top: 30px;
@@ -118,12 +160,12 @@ ol {
 
     #box {
         width: 100%;
-        height: 150vh;
-        background-color: aqua;
+        height: 1405px;
+        background-color: #222222;
     }
     .ex {
         width: 100%;
-        height: 29%;
+        height: 403px;
     }
     .ex1 {
         width: 50%;
@@ -135,9 +177,9 @@ ol {
         /* margin: 2%; */
         margin-top: 16px;
     }
-    .ex1 img:hover{
+    /* .ex1 img:hover{
     background-color: #fff;
-    opacity: 0.5;}
+    opacity: 0.5;} */
     .exx {
     width: 48%;
     height: 101%;
@@ -151,7 +193,7 @@ ol {
     .exx li {
         width: 18%;
         height: 55%;
-        margin: 1.4% 2% 0% 30%;
+        margin: 1.99% 2% 0% 30%;
         float: left;
         padding: 0% 0% -1% 27%;
     }
@@ -161,44 +203,57 @@ ol {
         margin: 7px 0px 0px -209px;
     }
 
-    .exx li img:hover{
+    /* .exx li img:hover{
         background-color: #fff;
         opacity: 0.5;
-    }
+    } */
 
     .Ex {
         width: 100%;
         height: 100%;
-        background-color: blueviolet;
+        /* background-color: blueviolet; */
         margin-top: 75px;
         display: flex;
     }
 
-    .Ex1 {
+    .video {
         width: 52%;
         height: 100%;
-        background-color: #666666;
+
+    }
+    .video video {
+        width: 100%;
+        height: 100%;
+
     }
 
     .Ex2 {
         width: 100%;
-        height: 53%;
-        background-color: yellow;
-        margin: -4% 0% 0% 9%;
+        height: 77%;
+        /* background-color: yellow; */
+        margin: 0% 0% 0% 9%;
         /* display: block; */
         align-self: center;
     }
     .Ex3 {
         width: 100%;
-        height: 53%;
-        background-color: red;
-        margin: -4% 8% 0% 7%;
+        height: 77%;
+        /* background-color: red; */
+        margin: 0% 8% 0% 7%;
+        align-self: center;
+    }
+
+    .Ex3 img {
+        width: 100%;
+        height: 100%;
+        /* background-color: red; */
+        margin: 0% 8% 0% 0%;
         align-self: center;
     }
     .dont {
         width: 52%;
         height: 100%;
-        background-color: pink;
+        /* background-color: pink; */
         display: flex;
         align-items: center;
     }
@@ -206,7 +261,7 @@ ol {
     .EX{
         width: 100%;
         height: 60%;
-        background-color: blue;
+        /* background-color: blue; */
         margin-top: 75px;
         display: flex;
         align-items: center;
@@ -214,20 +269,55 @@ ol {
     .skin {
         width: 52%;
         height: 100%;
-        background-color: #666666;
+        /* background-color: #666666; */
     }
     .skin2 {
         width: 52%;
         height: 100%;
-        background-color: red;
+        /* background-color: red; */
     }
 
     .Fs {
-        width: 100%;
-        height: 28.5%;
-        background-color: blue;
+        width: 105%;
+        height: 147px;
         margin-top: 75px;
         display: flex;
         align-items: center;
     }
+
+    .Fs div {
+        width: 100%;
+        height: 93%;
+
+        margin-top: 75px;
+        display: flex;
+        /* align-items: center; */
+        margin: auto;
+        margin: 1% 4% 8% 0%;
+        /* padding: 2% 0% 0% 0%; */
+    }
+    .Fs p {
+        text-align: center;
+        margin: 2% -1% -7% -43%;
+        float: left;
+        font-size: 12px;
+        width: 100%;
+        height: 29%;
+        color: #FFF;
+        font-weight: bold;
+        
+  
+    }
+
+   
+    .Ec p {
+
+        width: 100%;
+        height: 100%;
+        margin: 4% 0% -5% 0%;
+        color: #fff;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
 }
