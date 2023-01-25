@@ -304,15 +304,18 @@ ol {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        flex-wrap: wrap;
     }
 
     .Fs div {
-        width: 100%;
-        height: 93%;
-        margin-top: 75px;
-        display: flex;
-        margin: auto;
-        margin: 1% 4% 8% 0%;
+        width: 220px;
+        height: 136px;
+        margin: 0% -2% 0% 0%;
+    }
+
+    .Fs img {
+        width: 197px;
+        height: 136px;
     }
 
     .Fs p {
