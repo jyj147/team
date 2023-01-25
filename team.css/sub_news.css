@@ -200,19 +200,21 @@ ol {
 
     .Ex {
         width: 100%;
-        height: 100%;
+        height: 403px;
         margin-top: 75px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
     }
     
     .video {
-        width: 52%;
-        height: 100%;
-
+        width: 100%;
+        height: 403px;
     }
     .video video {
-        width: 100%;
-        height: 100%;
-
+        width: 48%;
+        height: 90%;
     }
 
     .Ex2 {
@@ -235,11 +237,9 @@ ol {
         align-self: center;
     }
     .dont {
-        width: 50%;
-        height: 78%;
+        width: 550px;
+        height: 314px;
         align-items: center;
-        margin: -33% 0% 0% 54%;
-        float: left;
     }
     .EX{
         width: 100%;
