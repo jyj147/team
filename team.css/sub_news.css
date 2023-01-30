@@ -64,7 +64,7 @@ ol {
 
     #event {
         width: 100%;
-        height: 740px;
+        height: 861px;
         background-color: #222222;
         position: relative;
     }
@@ -121,7 +121,7 @@ ol {
 
     #arr {
         width: 100%;
-        height: 594px;
+        height: 725px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -146,7 +146,7 @@ ol {
     #arr p {
         margin-top: 41px;
         color: gray;
-        font-size: 11px;
+        font-size: 12px;
     }
 
     #arr span {
@@ -155,13 +155,18 @@ ol {
         font-size: 16px;
     }
 
-    .mspan span {
-        font-size: 11px;
+    .mspan button {
+        width: 120px;
+        height: 30px;
+        border: 1px solid white;
+        color: white;
+        font-size: 12px;
+        background-color: #222222;
     }
 
     #box {
         width: 100%;
-        height: 2135px;
+        height: 2399px;
         background-color: #222222;
     }
 
@@ -178,7 +183,6 @@ ol {
         color: #fff;
         font-size: 20px;
         width: 100%;
-        margin-bottom: 30px;
         font-family: 'Rowdies', cursive;
     }
 
@@ -216,10 +220,19 @@ ol {
         height: 100%;
     }
 
-    .expp{
+    .expp {
         color: #FFF;
         font-size: 16px;
         margin-top: 45px;
+    }
+
+    .expp button {
+        width: 120px;
+        height: 30px;
+        border: 1px solid white;
+        color: white;
+        font-size: 12px;
+        background-color: #222222;
     }
 
     .Ex {
@@ -230,7 +243,7 @@ ol {
         justify-content: space-between;
         align-items: center;
         display: flex;
-        
+
     }
 
     .video {
@@ -298,16 +311,25 @@ ol {
         font-size: 20px;
         color: #FFF;
         width: 100%;
-        margin-bottom: -13%;
         font-family: 'Rowdies', cursive;
+        margin-bottom: -12px
     }
 
-    .Expp{
+    .Expp {
         color: #FFF;
         font-size: 16px;
+        margin-top: -6px;
     }
 
-    .xpp
+    .Expp button {
+        width: 120px;
+        height: 30px;
+        border: 1px solid white;
+        color: white;
+        font-size: 12px;
+        background-color: #222222;
+    }
+
     .skin {
         width: 52%;
         height: 100%;
@@ -327,17 +349,16 @@ ol {
         justify-content: space-between;
         flex-wrap: wrap;
     }
-   
+
     .a {
         width: 100%;
         color: #FFF;
         font-size: 20px;
-        margin-bottom: -4%;
-        margin-top: 6%;
+        margin-bottom: -5%;
         font-family: 'Rowdies', cursive;
     }
 
-    .aaa{
+    .aaa {
         margin-top: 8%;
     }
 
@@ -362,7 +383,7 @@ ol {
         color: #FFF;
     }
 
-    .Ec{
+    .Ec {
         margin-top: 12%;
     }
 
@@ -370,18 +391,38 @@ ol {
         width: 100%;
         color: #fff;
         font-size: 20px;
-        margin-bottom: -3%;
+        margin-bottom: -4%;
         font-family: 'Rowdies', cursive;
+        margin-top: 95px;
     }
 
-    .Ecpp{
+    .Ecpp {
         font-size: 16px;
         color: #FFF;
-        margin-top: 43px;
+        margin-top: 38px;
     }
 
-    .Lpp{
+    .Ecpp button {
+        width: 120px;
+        height: 30px;
+        border: 1px solid white;
+        color: white;
+        font-size: 12px;
+        background-color: #222222;
+    }
+
+    .Lpp {
         font-size: 16px;
         color: #FFF;
+        margin-top: 29px;
+    }
+
+    .Lpp button {
+        width: 120px;
+        height: 30px;
+        border: 1px solid white;
+        color: white;
+        font-size: 12px;
+        background-color: #222222;
     }
 }
