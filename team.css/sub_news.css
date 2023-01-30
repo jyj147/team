@@ -121,7 +121,7 @@ ol {
 
     #arr {
         width: 100%;
-        height: 530px;
+        height: 594px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -144,7 +144,7 @@ ol {
     }
 
     #arr p {
-        margin-top: 30px;
+        margin-top: 41px;
         color: gray;
         font-size: 11px;
     }
@@ -152,6 +152,7 @@ ol {
     #arr span {
         margin-top: 30px;
         color: #fff;
+        font-size: 16px;
     }
 
     .mspan span {
@@ -160,7 +161,7 @@ ol {
 
     #box {
         width: 100%;
-        height: 1900px;
+        height: 2135px;
         background-color: #222222;
     }
 
@@ -175,9 +176,10 @@ ol {
 
     .exp {
         color: #fff;
-        font-size: 12px;
+        font-size: 20px;
         width: 100%;
         margin-bottom: 30px;
+        font-family: 'Rowdies', cursive;
     }
 
     .ex1 {
@@ -212,6 +214,12 @@ ol {
     .exx li img {
         width: 100%;
         height: 100%;
+    }
+
+    .expp{
+        color: #FFF;
+        font-size: 16px;
+        margin-top: 45px;
     }
 
     .Ex {
@@ -261,8 +269,12 @@ ol {
     }
 
     .dont {
-        /* width: 48%;
-        height: 90%; */
+        width: 528px;
+        height: 403px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
     }
 
     .dont img {
@@ -283,11 +295,19 @@ ol {
     }
 
     .Ex p {
-        font-size: 12px;
+        font-size: 20px;
         color: #FFF;
         width: 100%;
         margin-bottom: -13%;
+        font-family: 'Rowdies', cursive;
     }
+
+    .Expp{
+        color: #FFF;
+        font-size: 16px;
+    }
+
+    .xpp
     .skin {
         width: 52%;
         height: 100%;
@@ -311,9 +331,10 @@ ol {
     .a {
         width: 100%;
         color: #FFF;
-        font-size: 12px;
+        font-size: 20px;
         margin-bottom: -4%;
         margin-top: 6%;
+        font-family: 'Rowdies', cursive;
     }
 
     .aaa{
@@ -348,8 +369,19 @@ ol {
     .Ec p {
         width: 100%;
         color: #fff;
-        font-size: 12px;
+        font-size: 20px;
         margin-bottom: -3%;
+        font-family: 'Rowdies', cursive;
     }
 
+    .Ecpp{
+        font-size: 16px;
+        color: #FFF;
+        margin-top: 43px;
+    }
+
+    .Lpp{
+        font-size: 16px;
+        color: #FFF;
+    }
 }
