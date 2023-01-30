@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 
-@media screen and (min-width:600px) and (max-width:1099px) {
+@media screen and (max-width:320px) {
  
         /* 섹션1 */
         #sec1 {
@@ -146,13 +146,13 @@
     
         #box {
             width: 100%;
-            height: 1871px;
+            height: 1443px;
             background-color: #222222;
         }
     
         .ex {
             width: 100%;
-            height: 18%;
+            height: 11%;
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
