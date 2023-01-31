@@ -65,7 +65,7 @@
         width: 100%;
         height: 1405px;
         margin: 0 auto;
-        display: flex;
+        /* display: flex; */
     }
 
     .e {
@@ -157,7 +157,7 @@
 
     .ex {
         width: 100%;
-        height: 18%;
+        height: 289px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -188,7 +188,7 @@
 
     .ex1 {
         width: 48%;
-        height: 90%;
+        height: 100%;
     }
 
     .ex1 img {
@@ -198,7 +198,7 @@
 
     .exx {
         width: 48%;
-        height: 90%;
+        height: 100%;
     }
 
     .exx ul {
@@ -222,21 +222,19 @@
 
     .Ex {
         width: 100%;
-        height: 403px;
-        margin-top: 15%;
+        margin-top: 32%;
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
         display: flex;
     }
-    .Ex p {
+    .Exp {
         font-size: 20px;
         color: #FFF;
         width: 100%;
         font-family: 'Rowdies', cursive;
-        margin-bottom: -12px;
+        margin-bottom: -16px;
     }
-
     .Expp {
         color: #FFF;
         font-size: 14px;
@@ -261,8 +259,8 @@
     }
 
     .video video {
-        width: 50%;
-        height: 326px;
+        width: 47%;
+        /* height: 326px; */
     }
 
     .Ex2 {
@@ -287,7 +285,7 @@
     }
 
     .dont {
-        width: 50%;
+        width: 53%;
         height: 403px;
         flex-wrap: wrap;
         justify-content: space-between;
