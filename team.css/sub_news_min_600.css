@@ -329,6 +329,21 @@
         justify-content: space-between;
         flex-wrap: wrap;
     }
+    
+    .Lpp{
+        margin-top: 30px;
+        color: #fff;
+        font-size: 14px;
+    }
+
+    .Lpp button{
+        width: 93px;
+    height: 30px;
+    border: 1px solid white;
+    color: white;
+    font-size: 12px;
+    background-color: #222222;  
+    }
 
     .a {
         width: 100%;
@@ -337,10 +352,17 @@
         margin-bottom: -4%;
         margin-top: 6%;
     }
+    
+    .a p {
+        color: #fff;
+        font-size: 20px;
+        width: 100%;
+        font-family: 'Rowdies', cursive;
+    }
 
     .aaa {
         margin-top: 30%;
-        width: 1100px;
+        width: 100%;
     }
 
     .Fs div {
@@ -374,11 +396,26 @@
         width: 100%;
     }
 
-    .Ec p {
-        width: 100%;
+    .Ecpp{
+        margin-top: 30px;
         color: #fff;
-        font-size: 12px;
-        margin-bottom: 2%;
+        font-size: 14px;
+    }
+
+    .Ecpp button{
+        width: 93px;
+    height: 30px;
+    border: 1px solid white;
+    color: white;
+    font-size: 12px;
+    background-color: #222222;  
+    }
+
+    .Ec p {
+        color: #fff;
+        font-size: 20px;
+        width: 100%;
+        font-family: 'Rowdies', cursive;
     }
 
 }
