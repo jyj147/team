@@ -143,6 +143,15 @@
         .mspan span {
             font-size: 11px;
         }
+
+        .mspan button{
+            width: 77px;
+            height: 30px;
+            border: 1px solid white;
+            color: white;
+            font-size: 12px;
+            background-color: #222222;
+        }
     
         #box {
             width: 100%;
@@ -159,11 +168,26 @@
             align-items: center;
         }
     
-        .exp {
+        .expp{
+            margin-top: 30px;
             color: #fff;
             font-size: 12px;
+        }
+
+        .exp {
+            color: #fff;
+            font-size: 20px;
             width: 100%;
-            margin-bottom: 30px;
+            font-family: 'Rowdies', cursive;
+        }
+
+        .expp button{
+            width: 77px;
+            height: 30px;
+            border: 1px solid white;
+            color: white;
+            font-size: 12px;
+            background-color: #222222;
         }
     
         .ex1 {
@@ -210,6 +234,28 @@
             display: flex;
             
         }
+
+        .Exp {
+            color: #fff;
+            font-size: 20px;
+            width: 100%;
+            font-family: 'Rowdies', cursive;
+        }
+
+        .Expp{
+            margin-top: 30px;
+            color: #fff;
+            font-size: 12px;
+        }
+
+        .Expp button{
+            width: 77px;
+            height: 30px;
+            border: 1px solid white;
+            color: white;
+            font-size: 12px;
+            background-color: #222222;
+        }
     
         .video {
             width: 100%;
@@ -248,11 +294,11 @@
     
         .dont {
             width: 50%;
-    height: 403px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    display: flex;
+            height: 403px;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            display: flex;
         }
     
         .dont img {
@@ -304,10 +350,26 @@
             margin-bottom: -4%;
             margin-top: 6%;
         }
+
+        .a p {
+            color: #fff;
+            font-size: 20px;
+            width: 100%;
+            font-family: 'Rowdies', cursive;
+        }
     
         .aaa {
             margin-top: 30%;
-            width: 1100px;
+            width: 100%;
+        }
+
+        .Lpp button{
+                width: 77px;
+                height: 30px;
+                border: 1px solid white;
+                color: white;
+                font-size: 12px;
+                background-color: #222222;
         }
     
         .Fs div {
@@ -336,16 +398,37 @@
             width: 100%;
             margin-top: 142px;
         }
+
+        .Ecpp{
+            margin-top: 30px;
+            color: #fff;
+            font-size: 12px;
+        }
+
+        .Ecpp button{
+            width: 77px;
+            height: 30px;
+            border: 1px solid white;
+            color: white;
+            font-size: 12px;
+            background-color: #222222;
+        }
+
         .Ec img{
             width: 100%;
         }
     
         .Ec p {
+            color: #fff;
+            font-size: 20px;
             width: 100%;
+            font-family: 'Rowdies', cursive;
+        }
+
+        .Lpp{
+            margin-top: 30px;
             color: #fff;
             font-size: 12px;
-            margin-bottom: 2%;
-        }
-    
+        }   
     }
 
