@@ -2,433 +2,421 @@
 
 
 @media screen and (min-width:321px) {
- 
-        /* 섹션1 */
-        #sec1 {
-            width: 100%;
-            background-color: #222;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-        }
-    
-        .sec1div1 {
-            width: 1100px;
-            height: auto;
-            background-color: #222;
-        }
-    
-        .sec1div1>div:first-child {
-            display: flex;
-            margin-top: 30px
-        }
-    
-        .sec1div1>div>input {
-            width: 150px;
-            height: 30px;
-            border: 1px solid white;
-            background-color: rgba(255, 255, 255, 0);
-            border-radius: 15px;
-            color: white;
-            text-align: center;
-        }
-    
-        .sec1div1>div>ul {
-            display: flex;
-            margin: 0px 30px;
-        }
-    
-        .sec1div1>div>ul>li {
-            margin: 0px 30px;
-        }
-    
-        .sec1div1>div:nth-child(2) {
-            margin: 30px;
-        }
-    
-        #event {
-            width: 100%;
-            height: 740px;
-            background-color: #222222;
-            position: relative;
-        }
-    
-        .container {
-            width: 100%;
-            height: 100%;
-            margin: 0 auto;
-            padding-top: 70px;
-        }
-    
-        .container1 {
-            width: 100%;
-            height: 1405px;
-            margin: 0 auto;
-            /* display: flex; */
-        }
-    
-        .e {
-            width: 100%;
-            height: 64px;
-    
-    
-        }
-    
-        .search {
-            width: 10%;
-            height: 34px;
-            background-color: #666666;
-            margin: 0.7%;
-            position: absolute;
-            border-radius: 52px;
-            opacity: 0.8;
-            margin: 32px 0px 0px 2px;
-        }
-    
-    
-    
-        .search img {
-            width: 18%;
-            height: 109%;
-        }
-    
-        .e ul {
-            display: flex;
-            justify-content: center;
-            justify-content: space-evenly;
-            padding: 3.5% 45% 0% 14%;
-        }
-    
-        .e ul li {
-            color: #fff;
-        }
-    
-        #arr {
-            width: 100%;
-            height: 530px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-    
-        .e p {
-            margin-top: 30px;
-            color: #fff;
-            font-size: 12px;
-            margin-left: 1.5%
-        }
-    
-        #arr article {
-            width: 48%;
-        }
-    
-        article img {
-            width: 100%;
-            height: 100%;
-        }
-    
-        #arr p {
-            margin-top: 30px;
-            color: gray;
-            font-size: 11px;
-        }
-    
-        #arr span {
-            margin-top: 30px;
-            color: #fff;
-            font-size: 12px;
-        }
-    
-        .mspan span {
-            font-size: 11px;
-        }
 
-        .mspan button{
-            width: 77px;
-            height: 30px;
-            border: 1px solid white;
-            color: white;
-            font-size: 12px;
-            background-color: #222222;
-        }
-    
-        #box {
-            width: 100%;
-            height: 1443px;
-            background-color: #222222;
-        }
-    
-        .ex {
-            width: 100%;
-            height: 11%;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            align-items: center;
-        }
-    
-        .expp{
-            margin-top: 30px;
-            color: #fff;
-            font-size: 12px;
-        }
-
-        .exp {
-            color: #fff;
-            font-size: 20px;
-            width: 100%;
-            font-family: 'Rowdies', cursive;
-        }
-
-        .expp button{
-            width: 77px;
-            height: 30px;
-            border: 1px solid white;
-            color: white;
-            font-size: 12px;
-            background-color: #222222;
-        }
-    
-        .ex1 {
-            width: 48%;
-            height: 90%;
-        }
-    
-        .ex1 img {
-            width: 100%;
-            height: 100%;
-        }
-    
-        .exx {
-            width: 48%;
-            height: 90%;
-        }
-    
-        .exx ul {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            align-content: space-between;
-        }
-    
-        .exx li {
-            width: 48%;
-            height: 48%;
-        }
-    
-        .exx li img {
-            width: 100%;
-            height: 100%;
-        }
-    
-        .Ex {
-            width: 100%;
-            height: 403px;
-            margin-top: 15%;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            align-items: center;
-            display: flex;
-            
-        }
-
-        .Exp {
-            color: #fff;
-            font-size: 20px;
-            width: 100%;
-            font-family: 'Rowdies', cursive;
-        }
-
-        .Expp{
-            margin-top: 30px;
-            color: #fff;
-            font-size: 12px;
-        }
-
-        .Expp button{
-            width: 77px;
-            height: 30px;
-            border: 1px solid white;
-            color: white;
-            font-size: 12px;
-            background-color: #222222;
-        }
-    
-        .video {
-            width: 100%;
-            height: 403px;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            align-items: center;
-            display: flex;
-        }
-    
-        .video video {
-            width: 50%;
-            height: 326px;
-        }
-    
-        .Ex2 {
-            width: 100%;
-            height: 77%;
-            margin: 0% 0% 0% 9%;
-            align-self: center;
-        }
-    
-        .Ex3 {
-            width: 100%;
-            height: 77%;
-            margin: 0% 8% 0% 7%;
-            align-self: center;
-        }
-    
-        .Ex3 img {
-            width: 100%;
-            height: 100%;
-            margin: 0% 8% 0% 0%;
-            align-self: center;
-        }
-    
-        .dont {
-            width: 50%;
-            height: 403px;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            align-items: center;
-            display: flex;
-        }
-    
-        .dont img {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            align-items: center;
-            width: 100%;
-        }
-    
-        .EX {
-            width: 100%;
-            height: 60%;
-            margin-top: 11px;
-            display: flex;
-            align-items: center;
-        }
-    
-        .Ex p {
-            font-size: 12px;
-            color: #FFF;
-            width: 100%;
-            margin-bottom: -13%;
-        }
-        .skin {
-            width: 52%;
-            height: 100%;
-        }
-    
-        .skin2 {
-            width: 52%;
-            height: 100%;
-        }
-    
-        .Fs {
-            width: 100%;
-            height: 147px;
-            margin-top: 75px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            flex-wrap: wrap;
-        }
-       
-        .a {
-            width: 100%;
-            color: #FFF;
-            font-size: 12px;
-            margin-bottom: -4%;
-            margin-top: 6%;
-        }
-
-        .a p {
-            color: #fff;
-            font-size: 20px;
-            width: 100%;
-            font-family: 'Rowdies', cursive;
-        }
-    
-        .aaa {
-            margin-top: 30%;
-            width: 100%;
-        }
-
-        .Lpp button{
-                width: 77px;
-                height: 30px;
-                border: 1px solid white;
-                color: white;
-                font-size: 12px;
-                background-color: #222222;
-        }
-    
-        .Fs div {
-            width: 25%;
-            height: 136px;
-            margin: 0% -8% 0% 0%;
-        }
-    
-        .Fs img {
-            width: 68%;
-            height: 109px;
-            padding: -16% 0% 0% 0%;
-        }
-    
-        .Fs p {
-            text-align: center;
-            margin: 2% -1% -7% -43%;
-            float: left;
-            font-size: 12px;
-            width: 100%;
-            height: 29%;
-            color: #FFF;
-        }
-    
-        .Ec {
-            width: 100%;
-            margin-top: 142px;
-        }
-
-        .Ecpp{
-            margin-top: 30px;
-            color: #fff;
-            font-size: 12px;
-        }
-
-        .Ecpp button{
-            width: 77px;
-            height: 30px;
-            border: 1px solid white;
-            color: white;
-            font-size: 12px;
-            background-color: #222222;
-        }
-
-        .Ec img{
-            width: 100%;
-        }
-    
-        .Ec p {
-            color: #fff;
-            font-size: 20px;
-            width: 100%;
-            font-family: 'Rowdies', cursive;
-        }
-
-        .Lpp{
-            margin-top: 30px;
-            color: #fff;
-            font-size: 12px;
-        }   
+    /* 섹션1 */
+    #sec1 {
+        width: 100%;
+        background-color: #222;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
 
+    .sec1div1 {
+        width: 1100px;
+        height: auto;
+        background-color: #222;
+    }
+
+    .sec1div1>div:first-child {
+        display: flex;
+        margin-top: 30px
+    }
+
+    .sec1div1>div>input {
+        width: 150px;
+        height: 30px;
+        border: 1px solid white;
+        background-color: rgba(255, 255, 255, 0);
+        border-radius: 15px;
+        color: white;
+        text-align: center;
+    }
+
+    .sec1div1>div>ul {
+        display: flex;
+        margin: 0px 30px;
+    }
+
+    .sec1div1>div>ul>li {
+        margin: 0px 30px;
+    }
+
+    .sec1div1>div:nth-child(2) {
+        margin: 30px;
+    }
+
+    #event {
+        width: 100%;
+        height: 740px;
+        background-color: #222222;
+        position: relative;
+    }
+
+    .container {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        padding-top: 70px;
+    }
+
+    .container1 {
+        width: 100%;
+        height: 1405px;
+        margin: 0 auto;
+        /* display: flex; */
+    }
+
+    .e {
+        width: 100%;
+        height: 64px;
+
+
+    }
+
+    .search {
+        width: 10%;
+        height: 34px;
+        background-color: #666666;
+        margin: 0.7%;
+        position: absolute;
+        border-radius: 52px;
+        opacity: 0.8;
+        margin: 32px 0px 0px 2px;
+    }
+
+
+
+    .search img {
+        width: 18%;
+        height: 109%;
+    }
+
+    .e ul {
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+        padding: 3.5% 45% 0% 14%;
+    }
+
+    .e ul li {
+        color: #fff;
+    }
+
+    #arr {
+        width: 100%;
+        height: 530px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .e p {
+        margin-top: 30px;
+        color: #fff;
+        font-size: 12px;
+        margin-left: 1.5%
+    }
+
+    #arr article {
+        width: 48%;
+    }
+
+    article img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #arr p {
+        margin-top: 30px;
+        color: gray;
+        font-size: 12px;
+    }
+
+    #arr span {
+        margin-top: 30px;
+        color: #fff;
+        font-size: 12px;
+    }
+
+    .mspan button {
+        width: 86px;
+        height: 30px;
+        border: 1px solid white;
+        color: white;
+        font-size: 12px;
+        background-color: #222222;
+    }
+
+    #box {
+        width: 100%;
+        height: 2158px;
+        background-color: #222222;
+    }
+
+    .ex {
+        width: 100%;
+        height: 222px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .exp {
+        color: #fff;
+        font-size: 20px;
+        width: 100%;
+        font-family: 'Rowdies', cursive;
+        line-height: 69px;
+        margin-top: -26px;
+    }
+
+    .expp {
+        color: #FFF;
+        font-size: 12px;
+        margin-top: 24px;
+    }
+
+    .expp button {
+        width: 86px;
+        height: 30px;
+        border: 1px solid white;
+        color: white;
+        font-size: 12px;
+        background-color: #222222;
+    }
+
+    .ex1 {
+        width: 48%;
+        height: 100%;
+    }
+
+    .ex1 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .exx {
+        width: 48%;
+        height: 100%;
+    }
+
+    .exx ul {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: space-between;
+    }
+
+    .exx li {
+        width: 48%;
+        height: 48%;
+    }
+
+    .exx li img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .Ex {
+        width: 100%;
+        margin-top: 300px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: flex-start;
+        display: flex;
+    }
+    .Exp {
+        font-size: 20px;
+        color: #FFF;
+        width: 100%;
+        font-family: 'Rowdies', cursive;
+        /* margin-bottom: -16px; */
+    }
+    .Expp {
+        color: #FFF;
+    }
+
+    .Expp button {
+        width: 93px;
+        height: 30px;
+        border: 1px solid white;
+        color: white;
+        font-size: 12px;
+        background-color: #222222;
+    }
+    .video {
+        width: 100%;
+        /* height: 403px; */
+        flex-wrap: wrap;
+        justify-content: space-between;
+        /* align-items: center; */
+        display: flex;
+        margin-top: 23px;
+    }
+
+    .video video {
+        width: 47%;
+    }
+
+    .Ex2 {
+        width: 100%;
+        height: 77%;
+        margin: 0% 0% 0% 9%;
+        align-self: center;
+    }
+
+    .Ex3 {
+        width: 100%;
+        height: 77%;
+        margin: 0% 8% 0% 7%;
+        align-self: center;
+    }
+
+    .Ex3 img {
+        width: 100%;
+        height: 100%;
+        margin: 0% 8% 0% 0%;
+        align-self: center;
+    }
+
+    .dont {
+        width: 53%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+    }
+
+    .dont img {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .EX {
+        width: 100%;
+        height: 60%;
+        margin-top: 22px;
+        display: flex;
+        align-items: center;
+    }
+
+
+    .skin {
+        width: 52%;
+        height: 100%;
+    }
+
+    .skin2 {
+        width: 52%;
+        height: 100%;
+    }
+
+    .Fs {
+        width: 1123px;
+        height: 147px;
+        margin-top: 45px;
+        display: flex;
+        align-items: center;
+        /* justify-content: flex-start; */
+        flex-wrap: wrap;
+        float: left;
+        margin: 124px 0px 520px 166px;
+        display: table-column;
+    }
+    
+    .Lpp {
+        margin-top: -8px;
+        color: #fff;
+        font-size: 12px;
+        margin: 0px 0px 0px 154px;
+    }
+
+    .Lpp button{
+        width: 93px;
+    height: 30px;
+    border: 1px solid white;
+    color: white;
+    font-size: 12px;
+    background-color: #222222;  
+    }
+
+    .a {
+        width: 100%;
+        color: #FFF;
+        font-size: 12px;
+        /* margin-bottom: -4%;
+        margin-top: 6%; */
+    }
+    
+    .a p {
+        color: #fff;
+        font-size: 20px;
+        width: 100%;
+        font-family: 'Rowdies', cursive;
+    }
+
+    .aaa {
+        /* margin-top: 30%; */
+        width: 100%;
+    }
+
+    .Fs div {
+        width: 25%;
+        height: 136px;
+        margin: 0% -8% 0% 0%;
+    }
+
+    .Fs img {
+        width: 68%;
+        height: 109px;
+        padding: -16% 0% 0% 0%;
+    }
+
+    .Fs p {
+        float: left;
+        font-family: 'Rowdies', cursive;
+        font-size: 20px;
+        color: #FFF;
+        margin: -42px 0 0 66px;
+    }
+
+    .Ec {
+        width: 100%;
+        margin-top: 142px;
+    }
+
+    .Ec img {
+        width: 100%;
+    }
+
+    .Ecpp{
+        margin-top: 30px;
+        color: #fff;
+        font-size: 12px;
+    }
+
+    .Ecpp button{
+        width: 93px;
+    height: 30px;
+    border: 1px solid white;
+    color: white;
+    font-size: 12px;
+    background-color: #222222;  
+    }
+
+    .Ec p {
+        color: #fff;
+        font-size: 20px;
+        width: 100%;
+        font-family: 'Rowdies', cursive;
+    }
+
+}
