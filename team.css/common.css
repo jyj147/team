@@ -1,0 +1,260 @@
+@charset "UTF-8";
+
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #222;
+    position: fixed;
+    top:0;
+    left:0;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    z-index: 20;
+    }
+    #headerlogo{
+        height: 70px;
+        display: flex;
+        align-items: center;
+    }
+    #headerlogo>a>p{
+        width: 200px;
+        display: inline-block;
+        line-height: 200px;
+    }
+    #logo{
+        width: 50px;
+        height: 50px;
+        margin: 10px;
+    }
+    header>ul,#headericon{
+        margin-top:25px;
+    }
+    header>ul>li{
+        float: left;
+        text-align: center;
+        border-left: 1px solid white;
+        border-right: 1px solid white;
+    }
+    header svg{
+        width: 20px;
+        height: 20px;
+        fill:white;
+        float: right;
+    }
+    header svg:hover{
+        fill:#5cc8d8;
+        cursor: pointer;
+    }
+    .hiddenmenu{
+        display: none;
+        line-height: 200%;
+        margin-top:23px;
+        padding: 10px 0px;
+    }
+    .hiddenmenu>li{
+        background-color: rgba(255,255,255,1);
+        margin-bottom: 10px;
+    }
+    .topmenu:hover,
+    .hiddenmenu>li:hover{
+        color:#5cc8d8;
+    }
+    /* 모바일메뉴 */
+    #minimenu{
+        background-color: #222;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 70px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    #minimenu>div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 40px;
+        height: 40px;
+    }
+
+    /* footer */
+    footer>div{
+        width: 100%;
+        background-color: #222;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    footer>div>div:first-child{
+        text-align: center;
+        margin-top:50px;
+    }
+    footer>div>ul{
+        width: 1100px;
+        height: 150px;
+        margin: 0 auto;
+        margin-top:10px;
+    }
+    footer>div>ul>li{
+        float: left;
+        text-align: center;
+        width:33.33%;
+        line-height: 200%;
+    }
+    footer>div>p{
+        margin: 0 auto;
+        text-align: center;
+        line-height: 160%;
+    }
+    footer>div>div{
+        width:1100px;
+        margin:0 auto;
+    }
+    footer>div>div>svg{
+        fill: #eee;
+        width: 20px;
+        height: 20px;
+        float: right;
+        margin:0px 10px;
+    }
+    footer>div>div>svg:hover{
+        fill:#5cc8d8;
+        cursor: pointer;
+    }
+
+    @media screen and (max-width:320px){
+        footer>div{
+            height:650px;
+        }
+        footer>div>p{
+            width: 80%;
+        }
+        footer{
+            margin-bottom: 70px;
+        }
+        footer>div>ul{
+            height: auto;
+        }
+
+        header>ul,header>#headericon{
+            display: none;
+        }
+        #headerlogo{
+            padding: 0px 10px;
+        }
+    }
+    @media screen and (min-width:321px){
+        footer>div{
+            height: 650px;
+        }
+        footer>div>p{
+            width: 80%;
+        }
+        footer{
+            margin-bottom: 70px;
+        }
+
+        header>ul,header>#headericon{
+            display: none;
+        }
+        #headerlogo{
+            padding: 0px 10px;
+        }
+    }
+    @media screen and (min-width:600px){
+        footer>div>p{
+            width: 80%;
+        }
+        footer{
+            margin-bottom: 0px;
+        }
+        header>ul,header>#headericon{
+            display: none;
+        }
+    }
+    @media screen and (min-width:1100px){
+        .topmenu>.mainW_16,
+        .topmenu>.mainB_16{
+            font-size: 14px;
+        }
+
+        footer>div{
+            height: 500px;
+        }
+        footer>div>p{
+            width: 1100px;
+        }
+        footer{
+            margin-bottom: 0px;
+        }
+
+        header>ul,header>#headericon{
+            display: block;
+        }
+        header>ul>li{
+            float: left;
+            margin:0px 15px;
+        }
+        #headerlogo{
+            width: 220px;
+            padding-left: 20px;
+        }
+        #headericon{
+            width:160px;
+            padding-right: 10px;
+        }
+        header svg{
+            margin:0px 5px;
+        }
+        header>ul>li{
+            margin:0px 5px;
+            width: 100px;
+        }
+
+        #minimenu{
+            display: none;
+        }
+    }
+    @media screen and (min-width:1757px){
+        .topmenu>.mainW_16,
+        .topmenu>.mainB_16{
+            font-size: 16px;
+        }
+        
+        footer>div{
+            height: 500px;
+        }
+        footer>div>p{
+            width: 1100px;
+        }
+
+        header>ul,header>#headericon{
+            display: block;
+        }
+        header>ul>li{
+            float: left;
+            margin:0px 30px;
+        }
+        #headerlogo{
+            width: 300px;
+            padding-left: 50px;
+        }
+        #headericon{
+            width:300px;
+            padding-right: 50px;
+        }
+        header svg{
+            margin:0px 10px;
+        }
+        header>ul>li{
+            margin:0px 30px;
+            width: 130px;
+        }
+
+        #minimenu{
+            display: none;
+        }
+    }

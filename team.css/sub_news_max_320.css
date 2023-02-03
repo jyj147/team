@@ -14,7 +14,7 @@
         }
     
         .sec1div1 {
-            width: 1100px;
+            width: 100%;
             height: auto;
             background-color: #222;
         }
@@ -45,6 +45,19 @@
     
         .sec1div1>div:nth-child(2) {
             margin: 30px;
+        }
+        .sec1div1>div>ul>li{
+            margin:0px 10px;
+        }
+        .sec1div1>div>input{
+            width:110px; 
+        }
+        .sec1div1>div>ul{
+            display: flex;
+            margin:0px 10px;
+        }
+        .sec1div1>div:first-child{
+            margin:10px 20px;
         }
     
         #event {

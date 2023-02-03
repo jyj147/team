@@ -46,6 +46,19 @@
     .sec1div1>div:nth-child(2) {
         margin: 30px;
     }
+    .sec1div1{
+        width: 100%;
+    }
+    .sec1div1>div>ul>li{
+        margin:0px 20px;
+    }
+    .sec1div1>div>input{
+        width:150px; 
+    }
+    .sec1div1>div>ul{
+        display: flex;
+        margin:0px 30px;
+    }
 
     #event {
         width: 100%;
@@ -322,7 +335,7 @@
     .Fs {
         width: 100%;
         height: 147px;
-        margin-top: 45px;
+        margin-top: 134px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -330,9 +343,10 @@
     }
     
     .Lpp {
-        margin-top: -8px;
+        margin-top: 38px;
         color: #fff;
         font-size: 12px;
+        text-align: left;
     }
 
     .Lpp button{
@@ -382,6 +396,8 @@
         height: 29%;
         color: #FFF;
         font-family: 'Rowdies', cursive;
+        margin-bottom: 0px;
+        text-align: left;
     }
 
     .Ec {
