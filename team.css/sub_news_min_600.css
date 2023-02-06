@@ -162,6 +162,9 @@
         font-size: 12px;
         background-color: #222222;
     }
+    .mspan button:hover{
+        background-color: #5cc8d8;
+   }
 
     #box {
         width: 100%;
@@ -201,6 +204,10 @@
         font-size: 12px;
         background-color: #222222;
     }
+    .expp button:hover{
+        background-color: #5cc8d8;
+    }
+
 
     .ex1 {
         width: 48%;
@@ -263,6 +270,9 @@
         font-size: 12px;
         background-color: #222222;
     }
+    .Expp button:hover{
+        background-color: #5cc8d8;
+   }
     .video {
         width: 100%;
         /* height: 403px; */
@@ -358,6 +368,9 @@
     font-size: 12px;
     background-color: #222222;  
     }
+    .Lpp button:hover{
+        background-color: #5cc8d8;
+   }
 
     .a {
         width: 100%;
@@ -424,7 +437,9 @@
     font-size: 12px;
     background-color: #222222;  
     }
-
+    .Ecpp button:hover{
+        background-color: #5cc8d8;
+   }
     .Ec p {
         color: #fff;
         font-size: 20px;
